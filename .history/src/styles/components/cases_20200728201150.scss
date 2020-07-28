@@ -1,0 +1,41 @@
+.cases{
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+  .cases-navigation{
+    position: absolute;
+    width:100%;
+    bottom:0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:6;
+    padding:32px;
+    box-sizing: border-box;
+    .cases-arrow{
+      svg{
+        
+      }
+      &.disabled{
+          
+      }
+    }
+  }
+  .row{
+    .case{
+      .case-details{
+        span{
+
+          h2{
+
+          }
+        }
+
+      }
+      .case-image{
+        img{
+
+        }
+      }
+    }
+  }
+}

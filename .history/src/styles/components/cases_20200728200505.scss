@@ -1,0 +1,4 @@
+.cases{
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50)
+}
