@@ -1,0 +1,25 @@
+.main{
+  height:50vh;
+  height: calc(var(--vh, 1vh) * 50);
+  background-color: $white;
+  .row{
+    flex-direction: column;
+    justify-content: center;
+    h2{
+      font-size:3rem;
+      line-hei
+      .line{
+        span{
+
+        }
+      }
+    }
+    .btn-row{
+      a{
+        svg{
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+import React from 'react'
+
+const Banner = () => {
+    return(
+        <section className="main">
+            <div className="container">
+                <div className="row">
+                    <h2>
+                        <div className="line">
+                            <span>Creating Unique brand is</span>
+                        </div>
+                        <div className="line">
+                            <span>whatwe do</span>
+                        </div>
+                    </h2>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+
+export default Banner
